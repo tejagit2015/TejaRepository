@@ -9,6 +9,7 @@ public class HomeBox {
 		this.id = id;
 		this.name = name;
 		this.location = location;
+		System.out.println("HomeBox Controller");
 	}
 	public String getId() {
 		return id;
