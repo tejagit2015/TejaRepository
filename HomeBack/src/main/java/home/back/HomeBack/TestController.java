@@ -15,8 +15,8 @@ public class TestController {
 	@GetMapping(path = "testme")
 	public String getMessage()
 	{
-		String strMsg2 = "Hi Sweya!";
-		return strMsg2;
+		String strMsg3 = "Hi Sweya!";
+		return strMsg3;
 	}
 	
 	@CrossOrigin
